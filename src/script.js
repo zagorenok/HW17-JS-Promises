@@ -46,6 +46,6 @@ new Promise((resolve, reject) => {
       setTimeout(() => reject(new Error('wrong data') ), 1000);
     });
   })
-  .catch(error => console.warn(error))
+  .catch(error => console.error(error))
 
   
